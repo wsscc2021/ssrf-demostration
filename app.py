@@ -1,11 +1,7 @@
 from flask import Flask, render_template, request, make_response
-from flask_cors import CORS, cross_origin
 import requests
 
 app = Flask(__name__, static_url_path="")
-cors = CORS(app, resources={
-  r"/*": {"origin": "*"}
-})
 
 @app.route("/")
 def index():
