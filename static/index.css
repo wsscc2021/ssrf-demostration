@@ -14,3 +14,10 @@
     min-height: 30px;
     padding: 8.5px;
 }
+
+#result {
+    word-break: break-all;
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 20px;
+}
