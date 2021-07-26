@@ -1,0 +1,16 @@
+#main {
+    min-height: 160px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+#main #url {
+    min-width: 500px;
+    min-height: 30px;
+}
+
+#main #submit {
+    min-height: 30px;
+    padding: 8.5px;
+}
